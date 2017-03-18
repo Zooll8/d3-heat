@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+body {
+  background-color: lightgrey;
+}
+
+.render {
+  background-color: white;
+  margin: 30px auto;
+  width: 1200px;
+  height: 600px;
+  -webkit-box-shadow: 0px 16px 34px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 16px 34px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 16px 34px -5px rgba(0, 0, 0, 0.75);
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+}
+
+.axis text {
+  font-size: 11px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+
+.font {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+.fontlight {
+  font-family: "Nunito", sans-serif;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 120px;
+  height: 58px;
+  padding: 2px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #FFF8F8;
+  border: 0px;
+  pointer-events: none;
+  font-family: "Nunito", sans-serif;
+}
